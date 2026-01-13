@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "medium";
+  src: url(./assets/fonts/static/Figtree-Medium.ttf);
+}
+@font-face {
+  font-family: "extrabold";
+  src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: hsl(47, 88%, 63%);
+  font-size: 16px;
+  font-family: "medium";
+}
+
+main {
+  padding: 0 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  border: solid 1px hsl(0, 0%, 7%);
+  border-radius: 20px;
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+  background: hsl(0, 0%, 100%);
+  width: 350px;
+  padding: 25px;
+}
+
+/* illustration */
+
+.illustration img {
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+span {
+  border-radius: 5px;
+  padding: 5px 15px;
+  background: hsl(47, 88%, 63%);
+  font-family: "extrabold";
+}
+
+.illustration p {
+  margin: 20px 0 0 0;
+}
+
+/* presentation */
+
+h1 {
+  font-family: "extrabold";
+  font-size: 28px;
+}
+
+.presentation p {
+  color: hsl(0, 0%, 42%);
+  line-height: 25px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+.author img {
+  height: 40px;
+}
+.author p {
+  margin-left: 10px;
+  font-family: "extrabold";
+  color: hsl(0, 0%, 7%);
+}
